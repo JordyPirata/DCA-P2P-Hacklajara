@@ -1,1 +1,1 @@
-# DCA-P2P-Hacklajara
+# DCA Bitcoin Calculator Hacklajara
