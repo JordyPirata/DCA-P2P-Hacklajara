@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ ticker }} Info</title>
+</head>
+<body>
+    <h1>Information for {{ ticker }}</h1>
+    <table border="1">
+        {% for key, value in info.items() %}
+        <tr>
+            <td><strong>{{ key }}</strong></td>
+            <td>{{ value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Back</a>
+</body>
+</html>
